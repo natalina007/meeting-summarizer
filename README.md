@@ -1,14 +1,12 @@
 # AI Meeting Summarizer
-
-An end-to-end meeting analysis application that transcribes uploaded audio files using Groq's fast Whisper ASR engine and generates 
-structured executive summaries, key decisions, and actionable tasks via `openai/gpt-oss-120b`.
+It is an end-to-end meeting summarizer in which we upload the audio files and then using Groq's fast whisper ASR engine the summarizer generates audio summary , key decisions , and actionable tasks via `openai/gpt-oss-120b`.
 
 ---
 
 ## Project Overview
-Manual meeting note-taking is often incomplete, slow, and inconsistent. This application automates the post-meeting workflow by:
-1. Converting spoken audio files into accurate text transcripts.
-2. Contextually parsing transcripts to extract critical operational outputs (Executive Summary, Key Decisions, and Assigned Action Items).
+Taking notes by hand is often slow, incomplete and also inconsistent. By using this meeting summarizer the work load decreases as you just have to record audio and it generates the post meeting workflow by:
+1. Converting audio files into accurate text transcripts.
+2. Finding the main recap, final decisions, and to-do lists from the meeting logs.
 3. Presenting the results in an interactive web interface built with Streamlit.
 
 ---
